@@ -13,7 +13,7 @@ jobs:
         node-version: ["20.11.0"]
 
     env:
-      NEXT_WEBSITE_URL: "${{ secrets.https://website.com }}"
+      NEXT_WEBSITE_URL: "${{ secrets.cloud-crop-dkehfie }}"
 
     steps:
       - uses: actions/checkout@v3
